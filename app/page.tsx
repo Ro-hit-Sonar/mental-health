@@ -1,103 +1,207 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import AllEmotions from "@/components/AllEmotions";
+import ContactUs from "@/components/ContactUs";
+import React from "react";
+import { motion } from "framer-motion";
+import { ArrowRight, Heart, Brain, Users, BookOpen } from "lucide-react";
+import Link from "next/link";
+
+const Page = () => {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <>
+      <div className="relative flex min-h-screen w-full bg-black pt-24">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/health5.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
         />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+        <div className="relative z-10 flex flex-col items-end justify-end h-full w-full px-4 sm:px-8 md:px-12 lg:px-24 text-white">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="font-mono font-extralight text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            Emotions are chemicals with meaning
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="font-mono font-extralight text-sm sm:text-base md:text-lg lg:text-xl mt-4 max-w-2xl text-right"
           >
-            Read our docs
-          </a>
+            Understand, Uncover & take control of your journey.
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="mt-8"
+          >
+            <a
+              href="#get-started"
+              className="inline-flex items-center px-6 py-3 bg-white text-black font-mono rounded-full hover:bg-gray-100 transition-colors duration-200"
+            >
+              Start Your Journey <ArrowRight className="ml-2" size={20} />
+            </a>
+          </motion.div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      {/* Features Section */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="bg-black py-16 sm:py-24"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="bg-gray-900 p-6 rounded-lg"
+            >
+              <Heart className="w-12 h-12 text-white mb-4" />
+              <h3 className="text-white text-xl font-mono mb-2">
+                Emotional Intelligence
+              </h3>
+              <p className="text-gray-400 font-mono">
+                Develop deeper understanding of your emotions and their impact
+                on your life.
+              </p>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="bg-gray-900 p-6 rounded-lg"
+            >
+              <Brain className="w-12 h-12 text-white mb-4" />
+              <h3 className="text-white text-xl font-mono mb-2">
+                Mental Wellness
+              </h3>
+              <p className="text-gray-400 font-mono">
+                Tools and resources to maintain and improve your mental health.
+              </p>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="bg-gray-900 p-6 rounded-lg"
+            >
+              <Users className="w-12 h-12 text-white mb-4" />
+              <h3 className="text-white text-xl font-mono mb-2">
+                Community Support
+              </h3>
+              <p className="text-gray-400 font-mono">
+                Connect with others on similar emotional journeys.
+              </p>
+            </motion.div>
+            <Link href="/journal">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="bg-gradient-to-br from-pink-500/20 to-purple-700/30 p-6 rounded-lg border border-pink-500/30 cursor-pointer"
+              >
+                <BookOpen className="w-12 h-12 text-pink-500 mb-4" />
+                <h3 className="text-white text-xl font-mono mb-2">
+                  Emotion Journal
+                </h3>
+                <p className="text-gray-300 font-mono">
+                  Track your emotional journey with our beautiful journaling
+                  feature.
+                </p>
+                <div className="mt-4 flex items-center text-pink-500">
+                  <span className="text-sm font-mono">Start Journaling</span>
+                  <ArrowRight className="ml-2" size={16} />
+                </div>
+              </motion.div>
+            </Link>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="bg-black py-12 sm:py-16 text-center"
+      >
+        <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold font-mono px-4 sm:px-8">
+          So what are you feeling today?
+        </p>
+      </motion.div>
+
+      <div
+        id="get-started"
+        className="min-h-screen w-full bg-cover bg-center"
+        style={{ backgroundImage: "url('/mental.png')" }}
+      >
+        <AllEmotions />
+      </div>
+
+      {/* Testimonials Section */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="bg-black py-16 sm:py-24"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-white text-3xl font-mono text-center mb-12">
+            What Our Community Says
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gray-900 p-6 rounded-lg">
+              <p className="text-gray-400 font-mono italic">
+                &ldquo;This platform helped me understand my emotions better
+                than any therapy session I&apos;ve had.&rdquo;
+              </p>
+              <p className="text-white font-mono mt-4">- Sarah M.</p>
+            </div>
+            <div className="bg-gray-900 p-6 rounded-lg">
+              <p className="text-gray-400 font-mono italic">
+                &ldquo;The community support here is incredible. I never feel
+                alone in my journey.&rdquo;
+              </p>
+              <p className="text-white font-mono mt-4">- James K.</p>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="min-h-screen w-full bg-cover bg-center flex flex-col items-start justify-center px-4 sm:px-8 md:px-12 lg:px-24 py-12 sm:py-16 text-white"
+        style={{ backgroundImage: "url('/health3.png')" }}
+      >
+        <h1 className="font-mono font-extralight text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+          Together, We Rise Stronger!
+        </h1>
+        <p className="font-mono font-extralight text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed mt-4 max-w-3xl text-justify">
+          Sometimes, keeping everything bottled up can feel like an endless
+          battle. We believe that sharing your story can be a powerful step
+          toward healing. In this space, you&apos;re invited to let your heart
+          speak—pour out your thoughts, feelings, and experiences without
+          judgment. If you&apos;d like to engage in a conversation or receive a
+          reply, feel free to include your email address. However, if you prefer
+          to remain anonymous and simply share what&apos;s weighing on your
+          heart, that&apos;s perfectly okay too.
+        </p>
+      </motion.div>
+
+      <div id="confess">
+        <ContactUs />
+      </div>
+    </>
   );
-}
+};
+
+export default Page;
