@@ -11,8 +11,11 @@ const Page = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-white mx-8 md:mx-28 text-center text-3xl md:text-4xl font-mono font-medium mb-12"
+        className="text-white mx-8 md:mx-28 text-center text-3xl md:text-4xl font-mono font-medium mb-12 "
       >
+        <br />
+        <br />
+        <br />
         It&apos;s okay to feel bad sometimes—it&apos;s part of being human.
         Let&apos;s explore what&apos;s behind this feeling and how to move
         through it.

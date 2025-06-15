@@ -32,7 +32,7 @@ const PlayfulPage = () => {
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
                 Hurt is heavy, like carrying a storm inside. What part of this
-                pain needs the most care right now? Let’s sit with it gently and
+                pain needs the most care right now? Lets sit with it gently and
                 begin to heal.
               </h1>
               <p className="text-gray-400 text-lg">
@@ -57,7 +57,7 @@ const PlayfulPage = () => {
                 <p className="text-gray-300 leading-relaxed">
                   Feeling disappointed arises when expectations clash with
                   reality, leaving you with a sense of unmet hope and lingering
-                  sadness. It’s as if you had painted a vivid picture of how
+                  sadness. Its as if you had painted a vivid picture of how
                   things should be, only to have reality fall short of that
                   vision. Imagine a time when you eagerly anticipated a positive
                   outcome—a personal achievement or an important gesture from
@@ -68,7 +68,7 @@ const PlayfulPage = () => {
                   guide, encouraging you to reassess your expectations and learn
                   from the experience. It invites you to reflect on what truly
                   matters, and to adjust your goals in a way that honors both
-                  your dreams and the reality of life’s imperfections. In
+                  your dreams and the reality of lifes imperfections. In
                   sharing your feelings with someone who listens, you can begin
                   to rebuild your hope and embrace a more balanced
                   perspective—one where every setback becomes a stepping stone
@@ -92,8 +92,8 @@ const PlayfulPage = () => {
                 <p className="text-gray-300 leading-relaxed">
                   Feeling embarrassed is a vulnerable experience that makes you
                   acutely aware of your perceived missteps or awkward moments.
-                  It’s like a sudden flash of heat across your cheeks when you
-                  believe you’ve drawn unwanted attention to yourself. Imagine a
+                  Its like a sudden flash of heat across your cheeks when you
+                  believe you have drawn unwanted attention to yourself. Imagine a
                   situation where, in the midst of a social interaction, you
                   said or did something that felt out of place, leaving you with
                   a lingering sense of discomfort and self-consciousness. That

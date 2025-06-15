@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Humiliation can feel isolating, but you’re not alone. Let’s
+                Humiliation can feel isolating, but you are not alone. Lets
                 explore this feeling and reclaim your sense of self-worth.
               </h1>
               <p className="text-gray-400 text-lg">
@@ -64,7 +64,7 @@ const PlayfulPage = () => {
                   and valued. Yet, this feeling also serves as an important
                   signal—a reminder to affirm your boundaries and stand up for
                   your self-worth. Reflect on the incident with a calm mind:
-                  while the disrespect hurt, it doesn’t define who you are.
+                  while the disrespect hurt, it doesnt define who you are.
                   Instead, see it as an opportunity to communicate more clearly
                   about your needs and expectations. Seeking support from
                   someone who understands you, whether a friend, mentor, or

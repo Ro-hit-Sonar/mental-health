@@ -32,7 +32,7 @@ const PlayfulPage = () => {
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
                 Feeling accepted is like being home within yourself. Who or what
-                made you feel this way? Let’s honor that connection. The End
+                made you feel this way? Lets honor that connection. The End
                 result should be one amonst these two !
               </h1>
               <p className="text-gray-400 text-lg">
@@ -56,7 +56,7 @@ const PlayfulPage = () => {
                 </div>
                 <p className="text-gray-300 leading-relaxed">
                   Feeling respected is a deeply affirming emotion that nurtures
-                  your sense of self-worth and belonging. It’s the gentle
+                  your sense of self-worth and belonging. Its the gentle
                   acknowledgment from others that your opinions, actions, and
                   presence matter. Imagine a moment when a friend or colleague
                   listened intently to your thoughts and expressed genuine
@@ -98,7 +98,7 @@ const PlayfulPage = () => {
                   challenging phase. Such moments can illuminate your
                   self-worth, making you feel cherished and important. This
                   sense of being valued goes beyond surface-level
-                  compliments—it’s a deep, affirming acknowledgment that you
+                  compliments—its a deep, affirming acknowledgment that you
                   matter. Perhaps you remember an occasion when you felt truly
                   seen, and that validation inspired you to continue growing and
                   giving your best. Embracing this emotion reminds you that

@@ -31,8 +31,8 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Anxiety often whispers about things that matter to us. What’s on
-                your mind today? Let’s untangle the knots, one by one.
+                Anxiety often whispers about things that matter to us. Whats on
+                your mind today? Lets untangle the knots, one by one.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -62,9 +62,9 @@ const PlayfulPage = () => {
                   up. In that moment, even the simplest decisions can seem
                   monumental, and your mind may race with worries that blur
                   together. This flood of emotions can create a sense of
-                  paralysis, as if you’re sinking beneath the weight of it all.
+                  paralysis, as if youre sinking beneath the weight of it all.
                   However, being overwhelmed is also a signal—a call to pause
-                  and reassess your priorities. It’s an invitation to take a
+                  and reassess your priorities. Its an invitation to take a
                   step back and practice self-care, whether that means
                   delegating tasks, setting boundaries, or simply allowing
                   yourself a few quiet moments of reflection. Reach out to
@@ -94,7 +94,7 @@ const PlayfulPage = () => {
                   regarding health, relationships, or work—keeps your thoughts
                   in a constant state of apprehension. This worry can build
                   slowly, like a cloud gathering on the horizon, eventually
-                  darkening your mood and sapping your energy. It’s as though
+                  darkening your mood and sapping your energy. Its as though
                   every possible negative outcome is magnified, leaving little
                   space for hope or clarity. Yet, worry also serves a purpose;
                   it alerts you to issues that may need attention and encourages
@@ -104,7 +104,7 @@ const PlayfulPage = () => {
                   them with a trusted friend. Gradually, as you gain perspective
                   and take constructive steps to address what you can control,
                   the intensity of your worry may lessen. Embrace the idea that
-                  while worry is natural, it doesn’t have to dominate your every
+                  while worry is natural, it doesnt have to dominate your every
                   thought—there is room for calm, resilience, and proactive care
                   in your daily life.
                 </p>

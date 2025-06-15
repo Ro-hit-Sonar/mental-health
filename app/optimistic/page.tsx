@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Optimism is like a sunrise, bringing warmth and endless possibilities. What’s lighting up your horizon today? Let’s embrace the hope and energy of what’s ahead.
+              Optimism is like a sunrise, bringing warmth and endless possibilities. Whats lighting up your horizon today? Lets embrace the hope and energy of whats ahead.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -53,7 +53,7 @@ const PlayfulPage = () => {
                   </h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling hopeful is like holding a gentle light within your heart, a quiet promise that even in times of challenge, there is always the possibility of renewal. Imagine standing at the edge of a new day as the soft glow of sunrise paints the sky with promise and potential. This sense of hope sustains you through life’s ups and downs, providing comfort and a reason to keep moving forward. Perhaps you recall a moment when, amid adversity, a small act of kindness or a supportive word sparked a renewed belief in better days ahead. That glimmer of hope transformed your outlook, reminding you that every setback carries the seed of a new beginning. Embracing hope means trusting that your future holds opportunities for growth and happiness, even when the present feels uncertain. Let this feeling inspire you to remain resilient, to seek out moments of light, and to carry that optimism into each new challenge and triumph you encounter.
+                Feeling hopeful is like holding a gentle light within your heart, a quiet promise that even in times of challenge, there is always the possibility of renewal. Imagine standing at the edge of a new day as the soft glow of sunrise paints the sky with promise and potential. This sense of hope sustains you through lifes ups and downs, providing comfort and a reason to keep moving forward. Perhaps you recall a moment when, amid adversity, a small act of kindness or a supportive word sparked a renewed belief in better days ahead. That glimmer of hope transformed your outlook, reminding you that every setback carries the seed of a new beginning. Embracing hope means trusting that your future holds opportunities for growth and happiness, even when the present feels uncertain. Let this feeling inspire you to remain resilient, to seek out moments of light, and to carry that optimism into each new challenge and triumph you encounter.
 
 
                 </p>
@@ -71,7 +71,7 @@ const PlayfulPage = () => {
                   <h2 className="text-2xl font-bold text-pink-500">Inspired</h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling inspired is an exhilarating state where your inner creativity awakens and fills you with a sense of purpose and possibility. Imagine sitting quietly, perhaps in a sun-dappled park, when a sudden insight or a beautiful scene ignites a cascade of ideas and dreams. That moment of inspiration transforms your ordinary surroundings into a canvas of endless potential. It’s as if every detail—the rustling of leaves, a kind smile from a stranger, or the rhythm of everyday life—suddenly sings to you in a new way. Perhaps you recall a time when an unexpected conversation or a simple gesture sparked a breakthrough, motivating you to pursue a passion or start a new project. Embracing inspiration means opening yourself up to life’s wonders and allowing your creative spirit to guide you toward new adventures. Let this surge of inspiration propel you to explore, dream, and create, trusting that every moment holds the potential to transform your journey into something beautifully unique.
+                Feeling inspired is an exhilarating state where your inner creativity awakens and fills you with a sense of purpose and possibility. Imagine sitting quietly, perhaps in a sun-dappled park, when a sudden insight or a beautiful scene ignites a cascade of ideas and dreams. That moment of inspiration transforms your ordinary surroundings into a canvas of endless potential. Its as if every detail—the rustling of leaves, a kind smile from a stranger, or the rhythm of everyday life—suddenly sings to you in a new way. Perhaps you recall a time when an unexpected conversation or a simple gesture sparked a breakthrough, motivating you to pursue a passion or start a new project. Embracing inspiration means opening yourself up to lifes wonders and allowing your creative spirit to guide you toward new adventures. Let this surge of inspiration propel you to explore, dream, and create, trusting that every moment holds the potential to transform your journey into something beautifully unique.
 
 
                 </p>

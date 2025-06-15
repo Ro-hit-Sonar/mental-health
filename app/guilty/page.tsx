@@ -31,8 +31,8 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Guilt often points to something we care deeply about. Let’s
-                understand what it’s trying to tell you.
+                Guilt often points to something we care deeply about. Lets
+                understand what its trying to tell you.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -53,15 +53,15 @@ const PlayfulPage = () => {
                 </div>
                 <p className="text-gray-300 leading-relaxed">
                   Feeling ashamed is a heavy emotion that wraps you in a cloak
-                  of self-criticism and regret. It’s that internal judgment that
+                  of self-criticism and regret. Its that internal judgment that
                   magnifies your mistakes, making you feel unworthy of love or
                   acceptance. Imagine a time when you made a misstep—perhaps a
-                  choice you now regret or a moment when you felt you didn’t
+                  choice you now regret or a moment when you felt you didnt
                   live up to your own standards—and the resulting shame was so
                   overwhelming that it clouded your entire sense of self. That
-                  searing feeling of inadequacy can be isolating, as if you’re
+                  searing feeling of inadequacy can be isolating, as if youre
                   burdened with a secret flaw that sets you apart from others.
-                  Yet, it’s important to recognize that shame is a universal
+                  Yet, its important to recognize that shame is a universal
                   experience, and it can be transformed through self-compassion.
                   By acknowledging your imperfections and learning from them,
                   you create space for healing. Reach out to someone who can
@@ -90,7 +90,7 @@ const PlayfulPage = () => {
                 <p className="text-gray-300 leading-relaxed">
                   Feeling remorseful is a deeply reflective state, emerging when
                   you recognize the impact of your actions on yourself or
-                  others. It’s a heavy, honest emotion—a quiet internal dialogue
+                  others. Its a heavy, honest emotion—a quiet internal dialogue
                   that questions what might have been done differently. Imagine
                   a moment when you unintentionally hurt someone, and the
                   subsequent realization filled you with a profound sense of

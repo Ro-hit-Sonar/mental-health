@@ -31,8 +31,8 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Curiosity is knocking. What’s catching your attention today?
-                Let’s nurture that spark—it might lead to something exciting.
+                Curiosity is knocking. Whats catching your attention today?
+                Lets nurture that spark—it might lead to something exciting.
                 The End result should be one amonst these two !
               </h1>
               <p className="text-gray-400 text-lg">
@@ -65,7 +65,7 @@ const PlayfulPage = () => {
                   That spark of curiosity transformed an ordinary day into an
                   adventure of discovery. Embracing your curiosity allows you to
                   break free from routine and engage with the world around you
-                  in a more profound way. It’s a gentle reminder that every
+                  in a more profound way. Its a gentle reminder that every
                   question you ask can lead to a richer, more nuanced
                   understanding of yourself and others. Let this inquisitive
                   spirit guide you, encouraging you to explore, learn, and
@@ -94,7 +94,7 @@ const PlayfulPage = () => {
                   engaged in a thoughtful conversation, where each question
                   leads to another, unraveling layers of insight and sparking
                   deeper connections. This state of mind is not merely about
-                  gathering facts; it’s about connecting the dots between
+                  gathering facts; its about connecting the dots between
                   experiences and emotions. Perhaps you remember a time when
                   your persistent questioning transformed an everyday experience
                   into an enlightening journey, opening your eyes to new
@@ -102,7 +102,7 @@ const PlayfulPage = () => {
                   testament to your willingness to explore beyond the surface.
                   Embracing an inquisitive nature empowers you to challenge
                   assumptions, foster continuous learning, and gain a richer
-                  appreciation for life’s complexities. Allow this drive to
+                  appreciation for lifes complexities. Allow this drive to
                   uncover truths to enrich your understanding, nurturing both
                   your inner growth and your connection to the world. Each
                   inquiry becomes a stepping stone toward a more thoughtful,

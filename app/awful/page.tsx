@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Feeling awful can feel consuming, but it’s temporary. What’s making you feel this way? Let’s sit with it and release it.
+              Feeling awful can feel consuming, but its temporary. Whats making you feel this way? Lets sit with it and release it.
 
               </h1>
               <p className="text-gray-400 text-lg">
@@ -70,7 +70,7 @@ const PlayfulPage = () => {
                   <h2 className="text-2xl font-bold text-pink-500">Detestable</h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling detestable is an overwhelming emotion that arises when you encounter something profoundly offensive or repulsive—so much so that it fills you with intense aversion. Imagine a scenario where a particular action or behavior, whether in a personal relationship or a public setting, triggers such a deep sense of dislike that you cannot help but recoil from it. This feeling can make you question not only the behavior you’re witnessing but also the broader context that allows such conduct to persist. Although it can be isolating to feel that something is utterly detestable, this reaction is also a powerful indicator of your strong inner values and boundaries. Reflect on the incident with a focus on what it reveals about what you cherish and stand for. By acknowledging this emotion, you empower yourself to distance from toxic influences and to advocate for environments that respect your principles. Over time, channeling your intense feelings into thoughtful dialogue or constructive action can transform detestability into a catalyst for positive change.
+                Feeling detestable is an overwhelming emotion that arises when you encounter something profoundly offensive or repulsive—so much so that it fills you with intense aversion. Imagine a scenario where a particular action or behavior, whether in a personal relationship or a public setting, triggers such a deep sense of dislike that you cannot help but recoil from it. This feeling can make you question not only the behavior you are witnessing but also the broader context that allows such conduct to persist. Although it can be isolating to feel that something is utterly detestable, this reaction is also a powerful indicator of your strong inner values and boundaries. Reflect on the incident with a focus on what it reveals about what you cherish and stand for. By acknowledging this emotion, you empower yourself to distance from toxic influences and to advocate for environments that respect your principles. Over time, channeling your intense feelings into thoughtful dialogue or constructive action can transform detestability into a catalyst for positive change.
 
 
                 </p>

@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Distance feels like being on an island, watching the world from afar. What’s creating this space? Let’s explore how to bridge the gap and reconnect.
+              Distance feels like being on an island, watching the world from afar. Whats creating this space? Lets explore how to bridge the gap and reconnect.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -53,7 +53,7 @@ const PlayfulPage = () => {
                   </h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling withdrawn is an emotional response where you retreat inwardly, often as a way to protect yourself from overwhelming stress or unresolved pain. Imagine a time when life’s challenges felt too heavy to bear, and instead of engaging with others, you chose to isolate yourself—seeking refuge in solitude. This withdrawal can provide temporary relief, creating a safe space where you avoid further hurt. However, prolonged isolation might leave you feeling disconnected and lonely, as if you’re separated from the world by an invisible barrier. Reflect on the reasons behind your retreat and consider whether it’s a signal that you need a moment to heal. Gradually reaching out to a trusted friend, family member, or counselor might help you reconnect with supportive relationships. Over time, with gentle self-compassion and mindful effort, you can rediscover the balance between honoring your need for space and nurturing the meaningful connections that enrich your life, ultimately guiding you back to a place of warmth and belonging.
+                Feeling withdrawn is an emotional response where you retreat inwardly, often as a way to protect yourself from overwhelming stress or unresolved pain. Imagine a time when lifes challenges felt too heavy to bear, and instead of engaging with others, you chose to isolate yourself—seeking refuge in solitude. This withdrawal can provide temporary relief, creating a safe space where you avoid further hurt. However, prolonged isolation might leave you feeling disconnected and lonely, as if you are separated from the world by an invisible barrier. Reflect on the reasons behind your retreat and consider whether its a signal that you need a moment to heal. Gradually reaching out to a trusted friend, family member, or counselor might help you reconnect with supportive relationships. Over time, with gentle self-compassion and mindful effort, you can rediscover the balance between honoring your need for space and nurturing the meaningful connections that enrich your life, ultimately guiding you back to a place of warmth and belonging.
 
 
                 </p>

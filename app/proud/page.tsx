@@ -31,8 +31,8 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Pride can feel uplifting and empowering. What’s making you feel
-              proud today? Let’s take a moment to celebrate it.
+              Pride can feel uplifting and empowering. Whats making you feel
+              proud today? Lets take a moment to celebrate it.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -57,9 +57,9 @@ const PlayfulPage = () => {
                   big or small. Imagine the quiet satisfaction of finishing a
                   challenging project or reaching a personal milestone—moments
                   when your hard work and determination finally pay off. This
-                  sense of success is more than external recognition; it’s an
+                  sense of success is more than external recognition; its an
                   internal affirmation of your capabilities and the progress
-                  you’ve made. Perhaps you recall a time when overcoming an
+                  you have made. Perhaps you recall a time when overcoming an
                   obstacle filled you with a profound sense of pride and the
                   motivation to pursue even greater goals. That rewarding moment
                   served as a reminder of your resilience and potential.
@@ -69,7 +69,7 @@ const PlayfulPage = () => {
                   feeling of success inspire you to continue moving forward, to
                   celebrate every step of your journey, and to acknowledge that
                   your efforts are meaningful. Recognize that success is not
-                  just a destination—it’s an ongoing process of learning,
+                  just a destination—its an ongoing process of learning,
                   growing, and becoming the best version of yourself.
 
 
@@ -92,7 +92,7 @@ const PlayfulPage = () => {
                   knowing your own worth and abilities. Picture yourself
                   stepping into a room with your head held high, secure in the
                   knowledge that you have much to offer. This emotion is not
-                  about being boastful; it’s about embracing your strengths and
+                  about being boastful; its about embracing your strengths and
                   trusting your inner voice. Perhaps you recall a time when you
                   took a risk—maybe speaking up in a meeting or trying something
                   new—and, despite initial doubts, you succeeded. That
@@ -104,7 +104,7 @@ const PlayfulPage = () => {
                   determination. Let this confidence be your guide, reminding
                   you that every experience contributes to your growth. Embrace
                   your inner strength and allow your self-assurance to shine,
-                  inspiring you to explore life’s opportunities with both
+                  inspiring you to explore lifes opportunities with both
                   courage and optimism.
                   </p>
               </motion.div>

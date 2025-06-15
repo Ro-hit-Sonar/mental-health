@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Startled feelings often come out of nowhere. Let’s slow down and process what just happened.
+              Startled feelings often come out of nowhere. Lets slow down and process what just happened.
 
               </h1>
               <p className="text-gray-400 text-lg">
@@ -54,7 +54,7 @@ const PlayfulPage = () => {
                   </h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling shocked is an intense, immediate emotional reaction that leaves you momentarily disoriented when confronted with something utterly unexpected. It’s as if time pauses for a heartbeat as you try to process a sudden piece of information or an unforeseen event. Imagine opening the door to find news that completely upends your day—a revelation that makes your heart pound and your thoughts scatter. In that brief moment, the familiar world seems to tilt, and you may feel both physically and emotionally unsteady. Shock serves as your mind’s initial response to significant change, alerting you that something important has occurred. Although the sensation can be overwhelming, it is also an opportunity to pause and reflect on the new reality. By allowing yourself time to absorb the shock, you gradually move toward understanding and acceptance. Over time, the raw intensity of the shock transforms into clarity and insight, paving the way for personal growth and renewed strength. Embrace this experience as a reminder that life is full of surprises, and each unexpected moment can ultimately lead to deeper self-awareness.
+                Feeling shocked is an intense, immediate emotional reaction that leaves you momentarily disoriented when confronted with something utterly unexpected. Its as if time pauses for a heartbeat as you try to process a sudden piece of information or an unforeseen event. Imagine opening the door to find news that completely upends your day—a revelation that makes your heart pound and your thoughts scatter. In that brief moment, the familiar world seems to tilt, and you may feel both physically and emotionally unsteady. Shock serves as your minds initial response to significant change, alerting you that something important has occurred. Although the sensation can be overwhelming, it is also an opportunity to pause and reflect on the new reality. By allowing yourself time to absorb the shock, you gradually move toward understanding and acceptance. Over time, the raw intensity of the shock transforms into clarity and insight, paving the way for personal growth and renewed strength. Embrace this experience as a reminder that life is full of surprises, and each unexpected moment can ultimately lead to deeper self-awareness.
 
 
                 </p>
@@ -72,7 +72,7 @@ const PlayfulPage = () => {
                   <h2 className="text-2xl font-bold text-pink-500">Dismayed</h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling dismayed is an emotional state marked by a deep sense of disappointment and sorrow when reality falls short of your expectations. It’s as if the weight of unmet hopes settles over you, dimming the light of optimism. Imagine pouring your heart into a project or relationship only to encounter an unexpected setback or betrayal that leaves you questioning your decisions. In that moment, a wave of dismay washes over you, and you may find yourself mulling over what could have been. This feeling can create an inner tension that lingers long after the initial event, making it hard to see a clear path forward. However, dismay also signals a need for reflection—an invitation to reassess your expectations and adjust your course. With gentle self-compassion and support from those who care, you can begin to transform dismay into a stepping stone for personal growth. By acknowledging your pain and learning from the experience, you gradually build resilience and pave the way for renewed hope and understanding, even when life doesn’t go as planned.
+                Feeling dismayed is an emotional state marked by a deep sense of disappointment and sorrow when reality falls short of your expectations. Its as if the weight of unmet hopes settles over you, dimming the light of optimism. Imagine pouring your heart into a project or relationship only to encounter an unexpected setback or betrayal that leaves you questioning your decisions. In that moment, a wave of dismay washes over you, and you may find yourself mulling over what could have been. This feeling can create an inner tension that lingers long after the initial event, making it hard to see a clear path forward. However, dismay also signals a need for reflection—an invitation to reassess your expectations and adjust your course. With gentle self-compassion and support from those who care, you can begin to transform dismay into a stepping stone for personal growth. By acknowledging your pain and learning from the experience, you gradually build resilience and pave the way for renewed hope and understanding, even when life doesnt go as planned.
                 </p>
               </motion.div>
             </div>

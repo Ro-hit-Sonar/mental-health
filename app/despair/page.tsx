@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Despair can feel like an endless night, but even the darkest nights have stars. Let’s search for the light together.
+              Despair can feel like an endless night, but even the darkest nights have stars. Lets search for the light together.
 
               </h1>
               <p className="text-gray-400 text-lg">
@@ -72,7 +72,7 @@ const PlayfulPage = () => {
                   <h2 className="text-2xl font-bold text-pink-500">Powerless</h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling powerless is an unsettling experience, marked by the sense that you have little control over the events shaping your life. It’s as if you’re caught in a storm where every effort to change your circumstances feels futile. Imagine a moment when, despite your best attempts, obstacles seemed insurmountable, leaving you with the impression that fate alone dictates your path. This deep-seated helplessness can drain your energy and dim your hope for the future. However, within that feeling lies a quiet call for reclaiming your agency, even if the steps seem small at first. Reflect on the minor victories that remind you of your inner strength—moments when you managed to steer through a challenge or make a small decision that changed your day. Seeking support from a trusted friend, mentor, or therapist can provide the guidance needed to rebuild your sense of control. Remember, every effort counts, and even in the midst of powerlessness, you hold the capacity to slowly assert your influence over your life’s direction.
+                Feeling powerless is an unsettling experience, marked by the sense that you have little control over the events shaping your life. Its as if you are caught in a storm where every effort to change your circumstances feels futile. Imagine a moment when, despite your best attempts, obstacles seemed insurmountable, leaving you with the impression that fate alone dictates your path. This deep-seated helplessness can drain your energy and dim your hope for the future. However, within that feeling lies a quiet call for reclaiming your agency, even if the steps seem small at first. Reflect on the minor victories that remind you of your inner strength—moments when you managed to steer through a challenge or make a small decision that changed your day. Seeking support from a trusted friend, mentor, or therapist can provide the guidance needed to rebuild your sense of control. Remember, every effort counts, and even in the midst of powerlessness, you hold the capacity to slowly assert your influence over your lifes direction.
 
 
                 </p>

@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Being critical is like holding a magnifying glass to every detail. What’s driving this scrutiny? Let’s balance this sharp focus with understanding and compassion.
+              Being critical is like holding a magnifying glass to every detail. Whats driving this scrutiny? Lets balance this sharp focus with understanding and compassion.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -53,7 +53,7 @@ const PlayfulPage = () => {
                   </h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling skeptical is an emotional stance where you question the truth or intentions behind what you encounter, often as a way to protect yourself from potential disappointment. Imagine a scenario where you’re presented with a new idea or promise, and instead of accepting it immediately, your mind starts to critically analyze and search for inconsistencies. This healthy dose of skepticism can serve as a shield, prompting you to verify facts and guard against being misled. However, when skepticism becomes pervasive, it might hinder your ability to trust and engage openly with others. Reflect on those moments of doubt, considering what experiences might have shaped your cautious outlook. By examining your skepticism with curiosity rather than judgment, you can balance your natural inquisitiveness with openness. Over time, as you build a foundation of trust through honest interactions and transparent communication, you may find that your skepticism softens into a thoughtful questioning that enriches your understanding of the world while still protecting your well-being.
+                Feeling skeptical is an emotional stance where you question the truth or intentions behind what you encounter, often as a way to protect yourself from potential disappointment. Imagine a scenario where youre presented with a new idea or promise, and instead of accepting it immediately, your mind starts to critically analyze and search for inconsistencies. This healthy dose of skepticism can serve as a shield, prompting you to verify facts and guard against being misled. However, when skepticism becomes pervasive, it might hinder your ability to trust and engage openly with others. Reflect on those moments of doubt, considering what experiences might have shaped your cautious outlook. By examining your skepticism with curiosity rather than judgment, you can balance your natural inquisitiveness with openness. Over time, as you build a foundation of trust through honest interactions and transparent communication, you may find that your skepticism softens into a thoughtful questioning that enriches your understanding of the world while still protecting your well-being.
                 </p>
               </motion.div>
 

@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Feeling disapproving means your values might be clashing. Let’s understand what’s at odds and how to address it.
+              Feeling disapproving means your values might be clashing. Lets understand whats at odds and how to address it.
 
               </h1>
               <p className="text-gray-400 text-lg">
@@ -54,7 +54,7 @@ const PlayfulPage = () => {
                   </h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling judgmental is an emotion that can creep in when you find yourself harshly evaluating others, often without realizing it’s a mirror for your own insecurities. Imagine a situation where, during a conversation, you quickly form opinions about someone’s choices or actions—perhaps criticizing a friend’s unconventional lifestyle or a colleague’s work methods. That reflexive judgment may feel like a way to protect your own vulnerabilities, yet over time it can create distance and hinder genuine connection. Recognize that this tendency might be reflecting unresolved feelings or personal expectations you hold for yourself. Consider pausing to ask, “What am I really afraid of?” and explore whether your critical stance is a defense mechanism against your own uncertainties. With gentle self-reflection, you can begin to replace judgment with curiosity and empathy. By understanding that everyone is on their own unique journey, you open the door to more compassionate interactions. Embracing this shift not only softens the edge of judgment but also deepens your connection with both others and your true self.
+                Feeling judgmental is an emotion that can creep in when you find yourself harshly evaluating others, often without realizing its a mirror for your own insecurities. Imagine a situation where, during a conversation, you quickly form opinions about someones choices or actions—perhaps criticizing a friends unconventional lifestyle or a colleagues work methods. That reflexive judgment may feel like a way to protect your own vulnerabilities, yet over time it can create distance and hinder genuine connection. Recognize that this tendency might be reflecting unresolved feelings or personal expectations you hold for yourself. Consider pausing to ask, “What am I really afraid of?” and explore whether your critical stance is a defense mechanism against your own uncertainties. With gentle self-reflection, you can begin to replace judgment with curiosity and empathy. By understanding that everyone is on their own unique journey, you open the door to more compassionate interactions. Embracing this shift not only softens the edge of judgment but also deepens your connection with both others and your true self.
 
 
                 </p>
@@ -72,7 +72,7 @@ const PlayfulPage = () => {
                   <h2 className="text-2xl font-bold text-pink-500">Embarrassed</h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling embarrassed is a common, yet deeply human, experience when you believe you’ve misstepped in front of others. Picture a moment when an offhand remark or a clumsy gesture in a social setting suddenly makes you the focus of unwanted attention—your cheeks flush and your heart races as you become hyper-aware of every gaze. This acute self-consciousness can linger long after the moment has passed, leaving you to replay the incident in your mind. Yet, embarrassment is also a sign of your sensitivity to social connection and your desire to be seen in a positive light. Reflect on a time when, after an embarrassing moment, you managed to laugh it off or found solace in the understanding of a friend. Recognize that everyone experiences these moments, and they are not a measure of your worth. By embracing embarrassment with self-compassion and humor, you can transform these fleeting instances into opportunities for growth and a deeper understanding of your own resilience..
+                Feeling embarrassed is a common, yet deeply human, experience when you believe you have misstepped in front of others. Picture a moment when an offhand remark or a clumsy gesture in a social setting suddenly makes you the focus of unwanted attention—your cheeks flush and your heart races as you become hyper-aware of every gaze. This acute self-consciousness can linger long after the moment has passed, leaving you to replay the incident in your mind. Yet, embarrassment is also a sign of your sensitivity to social connection and your desire to be seen in a positive light. Reflect on a time when, after an embarrassing moment, you managed to laugh it off or found solace in the understanding of a friend. Recognize that everyone experiences these moments, and they are not a measure of your worth. By embracing embarrassment with self-compassion and humor, you can transform these fleeting instances into opportunities for growth and a deeper understanding of your own resilience..
                 </p>
               </motion.div>
             </div>

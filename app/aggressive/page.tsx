@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Aggression is often a mask for deeper feelings. What’s fueling this intensity? Let’s dig deeper to find balance.
+              Aggression is often a mask for deeper feelings. Whats fueling this intensity? Lets dig deeper to find balance.
 
               </h1>
               <p className="text-gray-400 text-lg">

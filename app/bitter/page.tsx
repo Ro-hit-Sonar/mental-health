@@ -31,8 +31,8 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Bitterness often stems from unresolved hurt. What’s lingering
-                beneath the surface? Let’s work on letting it go.
+                Bitterness often stems from unresolved hurt. Whats lingering
+                beneath the surface? Lets work on letting it go.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -60,7 +60,7 @@ const PlayfulPage = () => {
                   situation—perhaps at work or within a personal
                   relationship—where you or someone you care about is treated
                   unfairly, and you feel an immediate surge of indignation. This
-                  emotion isn’t about uncontrolled anger; rather, it reflects a
+                  emotion isnt about uncontrolled anger; rather, it reflects a
                   deep commitment to integrity and respect. That inner fire
                   signals that something vital has been compromised and that
                   your boundaries need reaffirmation. In the heat of

@@ -31,8 +31,8 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Feeling powerful is invigorating! It means you’re owning your
-                moment. Where does this strength come from? Let’s channel it.
+                Feeling powerful is invigorating! It means you are owning your
+                moment. Where does this strength come from? Lets channel it.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -56,7 +56,7 @@ const PlayfulPage = () => {
                 <p className="text-gray-300 leading-relaxed">
                   Feeling courageous is about tapping into an inner reservoir of
                   strength that propels you forward despite the uncertainty of
-                  life. It’s that steady resolve that empowers you to face
+                  life. Its that steady resolve that empowers you to face
                   challenges head-on, even when fear whispers in your ear.
                   Imagine standing before a daunting opportunity—perhaps a new
                   job or a personal challenge—feeling your heart race, yet
@@ -65,8 +65,8 @@ const PlayfulPage = () => {
                   with an inspiring sense of empowerment. Perhaps you recall a
                   time when overcoming a significant obstacle revealed strengths
                   you never knew you had, leaving you with a lasting impression
-                  of your own resilience. This courageous spirit isn’t about the
-                  absence of fear; it’s about moving forward in spite of it.
+                  of your own resilience. This courageous spirit isnt about the
+                  absence of fear; its about moving forward in spite of it.
                   Embracing courage encourages you to see challenges as
                   opportunities for growth and transformation. Let this bravery
                   remind you that every step taken in the face of fear is a
@@ -99,7 +99,7 @@ const PlayfulPage = () => {
                   discovery, leading to a breakthrough that redefined your
                   perspective. Embracing this creative energy means welcoming
                   change, experimenting with new ideas, and allowing yourself
-                  the freedom to express your unique vision. It’s a gentle
+                  the freedom to express your unique vision. Its a gentle
                   reminder that within you lies the power to transform
                   challenges into innovative opportunities. Let your creative
                   spirit guide you, encouraging you to explore, experiment, and

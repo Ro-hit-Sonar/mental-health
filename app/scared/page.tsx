@@ -31,8 +31,8 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Feeling scared means something feels uncertain or unsafe. Let’s
-                explore what’s causing this and how we can create comfort.
+                Feeling scared means something feels uncertain or unsafe. Lets
+                explore whats causing this and how we can create comfort.
               </h1>
               <p className="text-gray-400 text-lg">
                 The end result should be one amongst these two!
@@ -53,7 +53,7 @@ const PlayfulPage = () => {
                 </div>
                 <p className="text-gray-300 leading-relaxed">
                   Feeling helpless is a deeply challenging emotion, one where
-                  circumstances seem to swirl beyond your control. It’s like
+                  circumstances seem to swirl beyond your control. Its like
                   being caught in a relentless storm with no shelter in sight.
                   Imagine a time when, despite your earnest efforts to help a
                   loved one through a crisis or to overcome a sudden setback at
@@ -68,8 +68,8 @@ const PlayfulPage = () => {
                   your sense of control. Over time, by taking small, deliberate
                   steps and accepting support, you can start to reclaim your
                   power and rebuild resilience. Remember that feeling helpless
-                  doesn’t diminish your worth; it’s a signal that you deserve
-                  care and understanding as you navigate through life’s
+                  doesnt diminish your worth; its a signal that you deserve
+                  care and understanding as you navigate through lifes
                   unpredictable challenges.
                 </p>
               </motion.div>
@@ -89,7 +89,7 @@ const PlayfulPage = () => {
                 </div>
                 <p className="text-gray-300 leading-relaxed">
                   Feeling frightened is that sudden, acute shiver of anxiety
-                  that can catch you off guard. It’s as if an unseen shadow
+                  that can catch you off guard. Its as if an unseen shadow
                   lurks just at the edge of your perception, igniting a primal
                   urge to flee. Imagine walking home one evening when the
                   darkness and unfamiliar sounds trigger a cascade of fear—even
@@ -106,7 +106,7 @@ const PlayfulPage = () => {
                   boundaries. Recognize that feeling frightened is a natural
                   human response, and by gently addressing it, you empower
                   yourself to regain a sense of safety and calm in the midst of
-                  life’s uncertainties.
+                  lifes uncertainties.
                 </p>
               </motion.div>
             </div>

@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Feeling lonely can be tough. It’s okay to admit it. Let’s reflect on this feeling and explore how to reconnect
+              Feeling lonely can be tough. Its okay to admit it. Lets reflect on this feeling and explore how to reconnect
 
               </h1>
               <p className="text-gray-400 text-lg">
@@ -54,7 +54,7 @@ const PlayfulPage = () => {
                   </h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling abandoned can be like standing in a crowded room and yet feeling completely invisible. It’s that deep sense of being left behind when someone important suddenly disappears from your life. Imagine a time when a close friend or loved one stopped reaching out without explanation, leaving you with an aching emptiness and questions about your own worth. In that moment, every quiet hour feels heavy, as if the world has moved on without you. Yet, within that painful void, there is also an invitation to reconnect with your inner strength. Acknowledge the hurt and allow yourself to grieve the loss, but also consider this an opportunity to nurture new bonds—ones that appreciate and honor who you are. Sometimes, reaching out to someone who listens or seeking professional guidance can help rebuild your sense of belonging. Remember that your value is intrinsic and isn’t diminished by someone else’s absence. In time, the sting of abandonment can soften into a resilient understanding that you are worthy of love and connection, regardless of the gaps others may leave in your life.
+                Feeling abandoned can be like standing in a crowded room and yet feeling completely invisible. Its that deep sense of being left behind when someone important suddenly disappears from your life. Imagine a time when a close friend or loved one stopped reaching out without explanation, leaving you with an aching emptiness and questions about your own worth. In that moment, every quiet hour feels heavy, as if the world has moved on without you. Yet, within that painful void, there is also an invitation to reconnect with your inner strength. Acknowledge the hurt and allow yourself to grieve the loss, but also consider this an opportunity to nurture new bonds—ones that appreciate and honor who you are. Sometimes, reaching out to someone who listens or seeking professional guidance can help rebuild your sense of belonging. Remember that your value is intrinsic and isnt diminished by someone elses absence. In time, the sting of abandonment can soften into a resilient understanding that you are worthy of love and connection, regardless of the gaps others may leave in your life.
 
 
                 </p>

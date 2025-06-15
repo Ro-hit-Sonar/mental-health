@@ -31,7 +31,7 @@ const PlayfulPage = () => {
               className="text-center mb-12"
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Amazement is like a burst of wonder. What’s leaving you in awe today? Let’s savor this feeling.
+              Amazement is like a burst of wonder. Whats leaving you in awe today? Lets savor this feeling.
 
               </h1>
               <p className="text-gray-400 text-lg">
@@ -54,7 +54,7 @@ const PlayfulPage = () => {
                   </h2>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                Feeling astonished is a vibrant experience marked by a profound sense of wonder and surprise that fills you with both admiration and curiosity. It’s the emotion you feel when reality exceeds your expectations in a dazzling display of beauty or brilliance. Imagine witnessing a breathtaking natural scene—a radiant sunset, a majestic mountain view, or an unexpected act of kindness—that stops you in your tracks and leaves you momentarily speechless. In that instant, your heart may quicken, and your mind races to capture every detail of the awe-inspiring moment. Astonishment invites you to embrace the unexpected and to appreciate the magic hidden in everyday life. Rather than being overwhelmed by the novelty, you allow it to spark joy and fuel your desire for exploration. Over time, these moments of astonishment can serve as powerful reminders of the beauty that exists around you, encouraging you to remain open and receptive to life’s endless wonders while nurturing a deep, abiding sense of gratitude.
+                Feeling astonished is a vibrant experience marked by a profound sense of wonder and surprise that fills you with both admiration and curiosity. Its the emotion you feel when reality exceeds your expectations in a dazzling display of beauty or brilliance. Imagine witnessing a breathtaking natural scene—a radiant sunset, a majestic mountain view, or an unexpected act of kindness—that stops you in your tracks and leaves you momentarily speechless. In that instant, your heart may quicken, and your mind races to capture every detail of the awe-inspiring moment. Astonishment invites you to embrace the unexpected and to appreciate the magic hidden in everyday life. Rather than being overwhelmed by the novelty, you allow it to spark joy and fuel your desire for exploration. Over time, these moments of astonishment can serve as powerful reminders of the beauty that exists around you, encouraging you to remain open and receptive to lifes endless wonders while nurturing a deep, abiding sense of gratitude.
 
 
                 </p>

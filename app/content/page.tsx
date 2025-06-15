@@ -32,7 +32,7 @@ const PlayfulPage = () => {
             >
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
                 Contentment is like a warm hug to the soul. It feels steady,
-                peaceful, and complete. Let’s sit with this calm for a while.
+                peaceful, and complete. Lets sit with this calm for a while.
                 The End result should be one amonst these two !
               </h1>
               <p className="text-gray-400 text-lg">
@@ -63,14 +63,14 @@ const PlayfulPage = () => {
                   recall a time when you spontaneously decided to take a
                   different path—whether a sudden road trip or stepping away
                   from routine—that rekindled your inner spark. This sense of
-                  freedom is not just physical; it’s an emotional release that
+                  freedom is not just physical; its an emotional release that
                   invites you to rediscover your true self. It encourages you to
                   challenge boundaries and explore new horizons with courage and
                   curiosity. Embracing freedom means recognizing that every new
                   day is a chance to redefine what it means to live fully,
                   unshackled by fear or doubt. Let this liberating energy guide
                   you to trust in your ability to shape your destiny and
-                  celebrate life’s endless opportunities.
+                  celebrate lifes endless opportunities.
                 </p>
               </motion.div>
 
@@ -91,14 +91,14 @@ const PlayfulPage = () => {
                   being with light and delight. Imagine a day when laughter
                   flows as freely as a mountain stream, where even the simplest
                   moments—a shared smile, a kind word, or a small victory—spark
-                  a deep and abiding happiness. This state of joy isn’t just a
-                  fleeting emotion; it’s a celebration of life’s beauty in all
+                  a deep and abiding happiness. This state of joy is not just a
+                  fleeting emotion; its a celebration of lifes beauty in all
                   its forms. Perhaps you remember a time when an unexpected
                   compliment or a spontaneous reunion with an old friend lit up
                   your day, reminding you of the precious connections that color
                   your world. Joy is a gentle yet powerful reminder that every
                   day holds the potential for wonder and gratitude. It
-                  encourages you to pause and savor life’s little miracles, no
+                  encourages you to pause and savor lifes little miracles, no
                   matter how ordinary they might seem. Embrace that uplifting
                   sensation and allow it to inspire you to spread kindness and
                   to recognize that joy, in its purest form, is a gift meant to
