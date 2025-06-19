@@ -1,16 +1,26 @@
-import SadEmotion from "@/components/SadEmotion";
-import React from "react";
+"use client";
 
-const page = () => {
+import SadEmotion from "@/components/SadEmotion";
+import PageLayout from "@/components/PageLayout";
+import React from "react";
+import { motion } from "framer-motion";
+
+const Page = () => {
   return (
-    <div className="bg-black">
-      <h1 className="bg-black text-white ml-28 mr-28 text-center text-2xl font-mono ">
-        Its okay to feel sad—every emotion has something to teach us. Lets
-        explore this sadness together and find its roots.
-      </h1>
+    <PageLayout className="bg-black">
+      <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-white mx-8 md:mx-28 text-center text-2xl md:text-3xl font-mono mb-8"
+      >
+        Sadness is a natural part of life that helps us process and heal.
+        Let&apos;s explore your feelings and find ways to move through them with
+        self-compassion.
+      </motion.h1>
       <SadEmotion />
-    </div>
+    </PageLayout>
   );
 };
 
-export default page;
+export default Page;

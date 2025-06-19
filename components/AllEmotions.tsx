@@ -27,7 +27,7 @@ const AllEmotions: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center py-8 sm:py-12">
+    <div className="min-h-screen bg-black flex items-center justify-center py-8 sm:py-12">
       <div className="w-full max-w-xl px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

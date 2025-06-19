@@ -1,33 +1,56 @@
-import React from "react";
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const SurprisedEmotion: React.FC = () => {
   return (
-    <div className="bg-black min-h-screen flex items-center justify-center">
+    <div className="bg-black flex items-center justify-center py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 w-full max-w-screen-lg">
-        {/* Emotion Blocks */}
-        <Link href="/startled">
-          <div className="bg-[#FF4500] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
-            Startled
-          </div>
-        </Link>
-        <Link href="/confused">
-          <div className="bg-[#808080] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
-            Confused
-          </div>
-        </Link>
-        <Link href="/amazed">
-          <div className="bg-[#00BFFF] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#FFD700] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/amazed"
+            className="w-full h-full flex items-center justify-center"
+          >
             Amazed
-          </div>
-        </Link>
-        <Link href="/excited">
-          <div className="bg-[#FF1493] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#87CEEB] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/startled"
+            className="w-full h-full flex items-center justify-center"
+          >
+            Startled
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#98FB98] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/confused"
+            className="w-full h-full flex items-center justify-center"
+          >
+            Confused
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#DDA0DD] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/excited"
+            className="w-full h-full flex items-center justify-center"
+          >
             Excited
-          </div>
-        </Link>
-
-        {/* Add more blocks here */}
+          </Link>
+        </motion.div>
       </div>
     </div>
   );

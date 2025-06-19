@@ -1,56 +1,113 @@
+"use client";
+
 // import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const HappyEmotion: React.FC = () => {
   return (
-    <div className=" bg-black min-h-screen bg-[ #0a0a0a] flex items-center justify-center">
+    <div className="bg-black flex items-center justify-center py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 w-full max-w-screen-lg">
         {/* Emotion Blocks */}
-        <Link href="/playful">
-          <div className="bg-[#FF6347] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#FF6347] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/playful"
+            className="w-full h-full flex items-center justify-center"
+          >
             Playful
-          </div>
-        </Link>
-        <Link href="/content">
-          <div className="bg-[#FFD700] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#FFD700] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/content"
+            className="w-full h-full flex items-center justify-center"
+          >
             Content
-          </div>
-        </Link>
-        <Link href="/interested">
-          <div className="bg-[#32CD32] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#32CD32] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/interested"
+            className="w-full h-full flex items-center justify-center"
+          >
             Interested
-          </div>
-        </Link>
-        <Link href="/proud">
-          <div className="bg-[#8A2BE2] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#8A2BE2] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/proud"
+            className="w-full h-full flex items-center justify-center"
+          >
             Proud
-          </div>
-        </Link>
-        <Link href="/accepted">
-          <div className="bg-[#98FB98] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#98FB98] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/accepted"
+            className="w-full h-full flex items-center justify-center"
+          >
             Accepted
-          </div>
-        </Link>
-        <Link href="/powerful">
-          <div className="bg-[#D32F2F] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#D32F2F] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/powerful"
+            className="w-full h-full flex items-center justify-center"
+          >
             Powerful
-          </div>
-        </Link>
-        <Link href="/peaceful">
-          <div className="bg-[#ADD8E6] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#ADD8E6] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/peaceful"
+            className="w-full h-full flex items-center justify-center"
+          >
             Peaceful
-          </div>
-        </Link>
-        <Link href="/trusting">
-          <div className="bg-[#1E90FF] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#1E90FF] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/trusting"
+            className="w-full h-full flex items-center justify-center"
+          >
             Trusting
-          </div>
-        </Link>
-        <Link href="/optimistic">
-          <div className="bg-[#FFA500] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#FFA500] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/optimistic"
+            className="w-full h-full flex items-center justify-center"
+          >
             Optimistic
-          </div>
-        </Link>
+          </Link>
+        </motion.div>
         {/* Add more blocks here */}
       </div>
     </div>

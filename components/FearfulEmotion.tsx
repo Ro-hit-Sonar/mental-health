@@ -1,43 +1,67 @@
-import React from "react";
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const FearfulEmotion: React.FC = () => {
   return (
-    <div className="bg-black min-h-screen flex items-center justify-center">
+    <div className="bg-black flex items-center justify-center py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 w-full max-w-screen-lg">
-        {/* Emotion Blocks */}
-        <Link href="/scared">
-          <div className="bg-purple-600 text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#800080] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/scared"
+            className="w-full h-full flex items-center justify-center"
+          >
             Scared
-          </div>
-        </Link>
-        <Link href="/anxious">
-          <div className="bg-[#FFD700] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#4B0082] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/anxious"
+            className="w-full h-full flex items-center justify-center"
+          >
             Anxious
-          </div>
-        </Link>
-        <Link href="/insecure">
-          <div className="bg-[#C0C0C0] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#483D8B] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/insecure"
+            className="w-full h-full flex items-center justify-center"
+          >
             Insecure
-          </div>
-        </Link>
-        <Link href="/rejected">
-          <div className="bg-[#B22222] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
-            Rejected
-          </div>
-        </Link>
-        <Link href="/threatened">
-          <div className="bg-[#D32F2F] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
-            Threatened
-          </div>
-        </Link>
-        <Link href="/weak">
-          <div className="bg-[#A9A9A9] text-black text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg hover:scale-105 transition-transform cursor-pointer">
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#6A5ACD] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/weak"
+            className="w-full h-full flex items-center justify-center"
+          >
             Weak
-          </div>
-        </Link>
-
-        {/* Add more blocks here */}
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#9370DB] text-white text-xl font-bold h-28 flex justify-center items-center rounded-lg shadow-lg transition-transform cursor-pointer"
+        >
+          <Link
+            href="/vulnerable"
+            className="w-full h-full flex items-center justify-center"
+          >
+            Vulnerable
+          </Link>
+        </motion.div>
       </div>
     </div>
   );
