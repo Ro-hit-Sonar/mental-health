@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Script from "next/script"; // ✅ Import this from Next.js
 import LiveSupportWidget from "@/components/LiveSupportWidget";
 
 const geistSans = Geist({
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Emotion Navigator",
-  description: "Developed by Rohit Kumar ",
+  description: "Developed by Rohit Kumar",
 };
 
 export default function RootLayout({
@@ -30,6 +31,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* ✅ Widget Script */}
+        <Script
+          src="https://video-support-widget.vercel.app/widget.js"
+          strategy="afterInteractive"
+        />
+
         <NavBar />
         {children}
         <Footer />
